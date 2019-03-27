@@ -43,7 +43,8 @@ BOARD_HAVE_QCOM_FM := true
 
 # Overlays
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # Permissions
 PRODUCT_COPY_FILES += \

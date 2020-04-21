@@ -36,7 +36,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 DEVICE_PATH := device/xiaomi/lavender
 
 # DT2W
-TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Enable System As Root even for non-A/B from P onwards
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true

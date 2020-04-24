@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	Snap
 
+# Wifi
+PRODUCT_PACKAGES += \
+    LavenderWifiOverlay
+
 # Vendor files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 

@@ -1,17 +1,16 @@
 [
  {
    "repository"   : "CarbonROM/android_device_xiaomi_sdm660-common",
-   "target_path"  : "device/xiaomi/sdm660-common",
-   "revision"     : "cr-8.0"
+   "target_path"  : "device/xiaomi/sdm660-common"
  },
  {
    "repository"   : "CarbonROM/android_kernel_xiaomi_sdm660",
-   "target_path"  : "kernel/xiaomi/sdm660",
-   "revision"     : "cr-8.0"
+   "target_path"  : "kernel/xiaomi/sdm660"
  },
  {
-   "remote"       : "github",
+   "remote"       : "gh",
    "repository"   : "LineageOS/android_packages_resources_devicesettings",
    "target_path"  : "packages/resources/devicesettings",
    "revision"     : "lineage-17.1"
+ }
 ]

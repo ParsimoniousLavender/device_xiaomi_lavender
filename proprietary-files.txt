@@ -1003,6 +1003,10 @@ vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
+# DRM
+vendor/lib64/libhdcpsrm.so
+vendor/lib64/liboemcrypto.so
+
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
@@ -1052,6 +1056,8 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 # Keystore
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
+vendor/lib/libqtikeymaster4.so
+vendor/lib64/libqtikeymaster4.so
 
 # Sensors - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
 vendor/lib/sensors.ssc.so|69970f125d076dac8711c1d1687f7faeb7a75bed

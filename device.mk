@@ -100,3 +100,6 @@ PRODUCT_DEVICE := lavender
 PRODUCT_MODEL := Redmi Note 7 (AOSP)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+
+PRODUCT_PACKAGES += \
+	libmmcamera_mg_faceppshim

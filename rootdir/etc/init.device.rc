@@ -27,6 +27,9 @@
 #
 #
 
+on early-init
+    write /sys/module/dm_verity/parameters/prefetch_cluster 0
+
 on boot
     # Camera
     chmod 0660 /sys/android_camera/sensor

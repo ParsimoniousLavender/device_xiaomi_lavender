@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# Inherit Redmi Note 7 Carbon device config
+# Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_lavender-eng \
-    aicp_lavender-userdebug \
-    aicp_lavender-user
+    lineage_lavender-eng \
+    lineage_lavender-userdebug \
+    lineage_lavender-user

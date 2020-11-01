@@ -110,3 +110,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.iwlan.enable=true \
 	persist.vendor.radio.data_con_rprt=1
+
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.supports_background_blur=1

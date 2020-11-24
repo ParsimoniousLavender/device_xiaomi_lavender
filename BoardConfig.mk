@@ -45,7 +45,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
 
 # Density
-TARGET_SCREEN_DENSITY := 403
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660

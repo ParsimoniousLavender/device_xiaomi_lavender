@@ -32,11 +32,14 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Build Fingerprint
+# Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
         PRODUCT_NAME="lavender" \
 	PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.9.0.PFGMIXM release-keys" 
+
+# Build Fingerprint
+BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
 
 # Device identifier
 PRODUCT_NAME := lineage_lavender

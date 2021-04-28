@@ -1039,9 +1039,9 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|e502c7046fb6a1955e
 vendor/lib/libqtikeymaster4.so|8bf4c5dadb9caef54d3282bb90f1dd58a839accb
 vendor/lib64/libqtikeymaster4.so|830a186c23b0a2d12c59e08ec6cf96b724ac2bed
 
-# Sensors - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
-vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
+# Sensors - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.ssc.so
 
 # Wifi - from jasmine V11.0.22.0.QDIMIXM
 vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345

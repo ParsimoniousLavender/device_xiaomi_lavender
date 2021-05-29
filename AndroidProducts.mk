@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_lavender.mk
+    $(LOCAL_DIR)/dot_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_lavender-eng \
-    evolution_lavender-userdebug \
-    evolution_lavender-user
+    dot_lavender-eng \
+    dot_lavender-userdebug \
+    dot_lavender-user

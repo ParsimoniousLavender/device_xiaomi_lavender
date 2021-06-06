@@ -1043,5 +1043,5 @@ vendor/lib64/libqtikeymaster4.so|830a186c23b0a2d12c59e08ec6cf96b724ac2bed
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
-# Wifi - from jasmine V11.0.22.0.QDIMIXM
-vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
+# Wifi - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/cnss-daemon

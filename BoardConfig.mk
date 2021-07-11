@@ -48,7 +48,6 @@ BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
 TARGET_SCREEN_DENSITY := 403
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := lavender_defconfig
 
 # Manifest

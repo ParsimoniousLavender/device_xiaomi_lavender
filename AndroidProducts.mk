@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lavender.mk
+    $(LOCAL_DIR)/calyx_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lavender-eng \
-    lineage_lavender-userdebug \
-    lineage_lavender-user
+    calyx_lavender-eng \
+    calyx_lavender-userdebug \
+    calyx_lavender-user

@@ -50,6 +50,7 @@ TARGET_SCREEN_DENSITY := 403
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := lavender_defconfig
+INLINE_KERNEL_BUILDING := true
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

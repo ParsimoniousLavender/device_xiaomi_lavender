@@ -1,19 +1,19 @@
-# ADSP modules
-vendor/lib/rfsa/adsp/nuance.scd
+# ADSP modules - from lavender-user 10 QKQ1.190910.002 20.3.19
+vendor/lib/rfsa/adsp/nuance.scd|d17ee46b7d136510360389baa8f365cd7669b5dd
 
-# Audio
-vendor/firmware/voice_amodel.bin
+# Audio - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM
+vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
 
-# Audio ACDB
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# Audio ACDB - from jasmine
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|436d3f09523a22741f43c1d474885e48d8b6f115
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|d2cbd54a07327f31efd6e667c1fc718e2447173f
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|b77e30b268bbfc3a1ecd828d18e972512a35778b
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|0f8517739db48b373a315c4150108ef8c123a7d3
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|4bd561067afd349230e26beadee0d77036f24d44
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|bacc36dd811f27a62b720eaf1630e2099ae8b622
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|1bccdbc52b99c508462439b5892ea54d94652f84
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|d8e79f219aede0139552f85b855d8a70ba27bf81
+vendor/etc/acdbdata/adsp_avs_config.acdb|d9507f31b8970320233128fed24c39742ee53c67
 
 # Camera
 vendor/etc/scve/facereco/gModel.dat
@@ -975,37 +975,37 @@ vendor/lib/libmmcamera_lavender_s5kgm1sp_ofilm_i_eeprom.so
 vendor/lib/libmmcamera_lavender_s5kgm1sp_sunny_ii_eeprom.so
 vendor/lib/libmmcamera_lavender_s5kgm1_sunny_ii.so
 
-# Consumerir
-vendor/lib/hw/consumerir.default.so
-vendor/lib64/hw/consumerir.default.so
+# Consumerir - from jasmine
+vendor/lib/hw/consumerir.default.so|f927b0ca8f81b78daa098872b27f599dd5a54141
+vendor/lib64/hw/consumerir.default.so|ad5c1c43bd7af8828efa20b7435f756d85a813b5
 
 # Display calibration
 vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
-# DRM
-vendor/lib64/liboemcrypto.so
+# DRM - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
+vendor/lib64/liboemcrypto.so|db41cb588065ad0d92ac2a59db409420c021413b
 
-# Fingerprint firmware
-etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06
-etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07
-etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt
-vendor/firmware/fpctzappfingerprint.b00
-vendor/firmware/fpctzappfingerprint.b01
-vendor/firmware/fpctzappfingerprint.b02
-vendor/firmware/fpctzappfingerprint.b03
-vendor/firmware/fpctzappfingerprint.b04
-vendor/firmware/fpctzappfingerprint.b05
-vendor/firmware/fpctzappfingerprint.b06
-vendor/firmware/fpctzappfingerprint.b07
-vendor/firmware/fpctzappfingerprint.mdt
+# Fingerprint Firmware - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
+etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00|8f813a88f234aa576d36753d545839379f4d845b
+etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01|ed9b552ee000d07ba1de9c2a166820d9f86e7648
+etc/firmware/goodixfp.b02:vendor/firmware/goodixfp.b02|d73142c3c50d7bcf29b01868ad6a590c239229b8
+etc/firmware/goodixfp.b03:vendor/firmware/goodixfp.b03|4f771450bf3d84b30667b6699e0dbd073f78ae85
+etc/firmware/goodixfp.b04:vendor/firmware/goodixfp.b04|eca5f325a4af552a6eb6d217f55ff2fcfac741a1
+etc/firmware/goodixfp.b05:vendor/firmware/goodixfp.b05|b24b016455b071eb424e370dba7ecb0537878de5
+etc/firmware/goodixfp.b06:vendor/firmware/goodixfp.b06|b24b016455b071eb424e370dba7ecb0537878de5
+etc/firmware/goodixfp.b07:vendor/firmware/goodixfp.b07|777f1f9fd5becc70d936b3e9829d88a2bebe2687
+etc/firmware/goodixfp.mdt:vendor/firmware/goodixfp.mdt|2f10c64c8b781e90733672d6361fc235eab09a17
+vendor/firmware/fpctzappfingerprint.b00|3e3501e6ff9929f6dd59b3789e7bf119c1de525b
+vendor/firmware/fpctzappfingerprint.b01|57e2bb9757a288d237ce665e52216abd6d389dea
+vendor/firmware/fpctzappfingerprint.b02|0e716713678e4d491acc4e9d6bbb710bb644cf4d
+vendor/firmware/fpctzappfingerprint.b03|85a9fcbd2e9236a9e510119fbaeda834c7bd1189
+vendor/firmware/fpctzappfingerprint.b04|c689bf09ff56a12a60df85cb2a47792ec9df855d
+vendor/firmware/fpctzappfingerprint.b05|9fafa1b43f267f8f1966907ce3320647a669b976
+vendor/firmware/fpctzappfingerprint.b06|9fafa1b43f267f8f1966907ce3320647a669b976
+vendor/firmware/fpctzappfingerprint.b07|27ac9ea6d45412fc39082f236857d03ca55a1b0f
+vendor/firmware/fpctzappfingerprint.mdt|56df2f2c406db1cf7cf6d15a3c2481d7573f3f13
 
 # Fingerprint sensor
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
@@ -1025,23 +1025,23 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/gatekeeper.sdm660.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/gatekeeper.sdm660.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from jasmine
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|119385ebd0a25b9bf20ce70375a62d806f11d2f1
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/gatekeeper.sdm660.so|bb56ae8a8fcc13148d1723044b8c617e6cf0b7ae
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|0f3b3809977a7048873b8b47f7533aa0e81491ea
+vendor/lib64/hw/gatekeeper.sdm660.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444aa
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|b9afb923665e7714309c2b912e0663cdd781f818
 
-# Keystore
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libqtikeymaster4.so
+# Keystore - from laurel_sprout
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|9c737dce0cfaee67d415334ee4eec3fd39d17be5
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|e502c7046fb6a1955e54936d6c8f4f8c2889b201
+vendor/lib/libqtikeymaster4.so|8bf4c5dadb9caef54d3282bb90f1dd58a839accb
+vendor/lib64/libqtikeymaster4.so|830a186c23b0a2d12c59e08ec6cf96b724ac2bed
 
 # Sensors - from LA.UM.8.2.r1-06700-sdm660.0
-vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
+vendor/lib/sensors.ssc.so|2127a224529656d54b15177129ca6783784ccb24
+vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
 
-# Wifi - from jasmine
-vendor/bin/cnss-daemon
+# Wifi - from jasmine V11.0.22.0.QDIMIXM
+vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345

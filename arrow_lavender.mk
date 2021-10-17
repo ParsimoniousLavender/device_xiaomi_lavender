@@ -27,15 +27,6 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Arrow stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
 
-# Build Description
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        TARGET_DEVICE="lavender" \
-        PRODUCT_NAME="lavender" \
-        PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys"
-
-# Build Fingerprint
-BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
-
 # Device identifier
 PRODUCT_NAME := arrow_lavender
 PRODUCT_MANUFACTURER := Xiaomi

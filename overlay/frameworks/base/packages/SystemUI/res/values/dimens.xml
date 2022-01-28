@@ -17,9 +17,6 @@
 */
 -->
 <resources>
-    <!-- for 20dp of padding at 2.75px/dp at default density -->
-    <dimen name="rounded_corner_content_padding">20dp</dimen>
-
     <!-- for statusbar padding -->
     <dimen name="status_bar_extra_padding">8dp</dimen>
     <dimen name="heads_up_status_bar_padding_start">18dp</dimen>

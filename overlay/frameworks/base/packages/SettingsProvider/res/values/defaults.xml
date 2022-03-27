@@ -18,9 +18,6 @@
 -->
 <resources>
 
-    <!-- Set the automatic brightness mode on by default -->
-    <bool name="def_screen_brightness_automatic_mode">true</bool>
-
     <!-- user interface sound effects -->
     <integer name="def_power_sounds_enabled">0</integer>
     <integer name="def_lockscreen_sounds_enabled">0</integer>

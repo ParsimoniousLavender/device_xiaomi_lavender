@@ -18,7 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
 	 $(DEVICE_PATH)/overlay \
-	 $(DEVICE_PATH)/overlay-lineage
+	 $(DEVICE_PATH)/overlay-evo
 
 # PRODUCT_SHIPPING_API_LEVEL indicates the first api level, device has been commercially launched on.
 PRODUCT_SHIPPING_API_LEVEL := 28

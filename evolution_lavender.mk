@@ -24,8 +24,12 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Evo stuff
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Build Description
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -33,11 +37,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME="lavender" \
         PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys"
 
-# Build Fingerprint
-BUILD_FINGERPRINT := "xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V9.5.11.0.ODCCNFA:user/release-keys"
-
 # Device identifier
-PRODUCT_NAME := arrow_lavender
+PRODUCT_NAME := evolution_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender

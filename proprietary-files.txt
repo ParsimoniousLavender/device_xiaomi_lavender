@@ -87,6 +87,7 @@ vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_le2464c_eeprom.so
 vendor/lib/libmmcamera_le2464c_master_eeprom.so
+vendor/lib/libmmcamera_mg_facepp_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_pdaf.so

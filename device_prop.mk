@@ -22,7 +22,7 @@
 #
 
 # Camera
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
 	persist.camera.auxswitch.threshold=330 \
 	persist.camera.imglib.usefdlite=1 \
 	persist.camera.depth.focus.cb=0 \
@@ -69,11 +69,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.exif.make=Xiaomi
 
 # Dual SIM
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
 	persist.radio.multisim.config=dsds
 
 # Paper mode
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
 	sys.jdi_nt36672_offset=9 \
 	sys.jdi_nt36672_length=45 \
 	sys.paper_mode_max_level=32 \
@@ -81,6 +81,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	sys.tianma_nt36672_length=46
 
 # Radio
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
 	persist.vendor.iwlan.enable=true \
 	persist.vendor.radio.data_con_rprt=1

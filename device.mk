@@ -75,6 +75,13 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
 	$(DEVICE_PATH)/sensors/elliptic.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/elliptic.conf
 
+# Task profiles
+PRODUCT_COPY_FILES += \
+	system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_SYSTEM)/etc/task_profiles/cgroups_28.json \
+	system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_SYSTEM)/etc/task_profiles/task_profiles_28.json \
+	system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+	system/core/libprocessgroup/profiles/task_profiles_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Vibrator
 PRODUCT_PACKAGES += \
 	vendor.qti.hardware.vibrator@1.2-service

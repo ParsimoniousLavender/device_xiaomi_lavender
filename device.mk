@@ -46,6 +46,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # Overlays
 PRODUCT_PACKAGES += \
+    LavenderApertureOverlay \
     LavenderFrameworksOverlay \
     LavenderSettingsOverlay \
     LavenderSystemUIOverlay \

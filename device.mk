@@ -39,7 +39,7 @@ TARGET_SCREEN_WIDTH := 1080
 BOARD_HAVE_IR := true
 
 # Device properties
-$(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
 # FM
 BOARD_HAVE_QCOM_FM := true
@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml
 
 # Properties 
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 
 # Keylayout
 PRODUCT_COPY_FILES += \

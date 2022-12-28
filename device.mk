@@ -89,10 +89,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	vendor.qti.hardware.vibrator@1.2-service
 
-# Snap
-PRODUCT_PACKAGES += \
-	Snap
-
 # Wifi
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay

@@ -974,7 +974,7 @@ vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
-# DRM
+# Widevine - from lavender lavender-user-10-QKQ1.190910.002-V12.5.3.0.QFGMIXM-release-keys
 vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 

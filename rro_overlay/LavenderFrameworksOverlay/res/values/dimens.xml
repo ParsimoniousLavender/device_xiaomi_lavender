@@ -24,10 +24,6 @@
         orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">108.0px</dimen>
 
-    <!-- the padding of the rounded corner -->
-    <!-- for 20dp of padding at 2.75px/dp at default density -->
-    <dimen name="rounded_corner_content_padding">20dp</dimen>
-
     <!-- Height of the status bar -->
     <dimen name="status_bar_height">80.0px</dimen>
 </resources>

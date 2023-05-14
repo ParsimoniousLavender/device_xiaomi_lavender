@@ -14,7 +14,6 @@ persist.vendor.camera.multicam.fpsmatch=TRUE
 persist.vendor.camera.enableAdvanceFeatures=0x347
 persist.vendor.camera.display.umax=1920x1080
 persist.vendor.camera.display.lmax=1280x720
-vidc.enc.dcvs.extra-buff-count=2
 persist.vendor.camera.eis.enable=0
 persist.camera.eis.enable=0
 persist.vendor.camera.expose.aux=1
@@ -41,11 +40,9 @@ persist.vendor.imx376_sunny.light.lux=275
 persist.vendor.imx376_ofilm.low.lux=290
 persist.vendor.imx376_ofilm.light.lux=275
 persist.vendor.bokeh.switch.lux=290
-persist.vendor.camera.exif.make=Xiaomi
 
 persist.radio.multisim.config=dsds
 persist.vendor.iwlan.enable=true
-persist.vendor.radio.data_con_rprt=1
 
 sys.jdi_nt36672_offset=9
 sys.jdi_nt36672_length=45

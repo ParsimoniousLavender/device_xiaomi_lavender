@@ -975,8 +975,8 @@ vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
 
 # Widevine - from lavender lavender-user-10-QKQ1.190910.002-V12.5.3.0.QFGMIXM-release-keys
-vendor/lib/liboemcrypto.so
-vendor/lib64/liboemcrypto.so
+vendor/lib/liboemcrypto.so|938a2325da1c4d4210f78276f43e689b66ec5ae4
+vendor/lib64/liboemcrypto.so|cf493ea8b86ef13a55ca4fb675c176405afd42fb
 
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00

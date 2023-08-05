@@ -51,7 +51,6 @@ BOARD_VENDOR_PLATFORM := xiaomi-sdm660
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_lavender
-TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true

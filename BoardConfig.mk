@@ -46,9 +46,6 @@ TARGET_KERNEL_CONFIG := lavender_defconfig
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
-# Platform
-BOARD_VENDOR_PLATFORM := xiaomi-sdm660
-
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_lavender
 

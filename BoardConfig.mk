@@ -32,8 +32,6 @@ DEVICE_PATH := device/xiaomi/lavender
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
-# Enable System As Root even for non-A/B from P onwards
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
 
 # Density

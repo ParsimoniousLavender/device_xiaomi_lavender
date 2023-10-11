@@ -32,8 +32,6 @@ DEVICE_PATH := device/xiaomi/lavender
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
-BOARD_KERNEL_CMDLINE += skip_initramfs rootwait ro init=/init
-
 # Density
 TARGET_SCREEN_DENSITY := 420
 

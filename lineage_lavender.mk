@@ -24,11 +24,11 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common LOS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := arrow_lavender
+PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
